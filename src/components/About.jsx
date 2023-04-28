@@ -13,7 +13,9 @@ const About = () => {
                 Graduated in Communication and Multimedia,
                 I acquired a taste for graphic design and web design.<br/>
                 I stand out for my persistence and the way I'm constantly 
-                trying to improve my skills.
+                trying to improve my skills.<br/>
+                The front-end is something that allows me to show all my creativity and motivation.<br/>
+                Here you will be able to know a little more about my work and my skills.
             </p>
 
             <br/>

@@ -7,6 +7,8 @@ import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
 import figma from "../assets/figma.png";
+import illustrator from "../assets/illustrator.png";
+import photoshop from "../assets/photoshop.png";
 
 const Experience = () => {
   const techs = [
@@ -51,6 +53,18 @@ const Experience = () => {
       src: figma,
       title: "Figma",
       style: "shadow-purple-400",
+    },
+    {
+      id: 8,
+      src: illustrator,
+      title: "Illustrator",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 9,
+      src: photoshop,
+      title: "Photoshop",
+      style: "shadow-cyan-400",
     },
   ];
 
