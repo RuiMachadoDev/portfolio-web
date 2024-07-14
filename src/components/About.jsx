@@ -11,10 +11,10 @@ const About = () => {
 
             <p className="text-xl mt-20">
                 Graduated in Communication and Multimedia,
-                I acquired a taste for graphic design and web design.<br/>
+                I acquired a taste for web development and mobile development.<br/>
                 I stand out for my persistence and the way I'm constantly 
                 trying to improve my skills.<br/>
-                The front-end is something that allows me to show all my creativity and motivation.<br/>
+                The software development is something that allows me to show all my creativity and motivation.<br/>
                 Here you will be able to know a little more about my work and my skills.
             </p>
 
