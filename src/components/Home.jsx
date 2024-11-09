@@ -13,7 +13,7 @@ const Home = () => {
                     Motivated for challenges, new knowledge and acquisition of professional skills that
                     allow me to be more proactive and a better professional, thus making me more competitive.
                     In the projects that I integrate, something that stands out to me is creativity and the easy ability to solve problems.
-                    problems along with good time management.
+                    Problems along with good time management.
                 </p>
 
                 <div>

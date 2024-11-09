@@ -5,10 +5,12 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
-import github from "../assets/github.png";
 import figma from "../assets/figma.png";
-import illustrator from "../assets/illustrator.png";
-import photoshop from "../assets/photoshop.png";
+import dotnet from "../assets/dotnet.png";
+import nextjs from "../assets/nextjs.png";
+import csharp from "../assets/csharp.png";
+import reactNative from "../assets/reactNative.png";
+import kotlin from "../assets/kotlin.png";
 
 const Experience = () => {
   const techs = [
@@ -44,27 +46,39 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 7,
       src: figma,
       title: "Figma",
       style: "shadow-purple-400",
     },
     {
+      id: 7,
+      src: dotnet,
+      title: ".NET",
+      style: "shadow-purple-500",
+    },
+    {
       id: 8,
-      src: illustrator,
-      title: "Illustrator",
-      style: "shadow-orange-400",
+      src: nextjs,
+      title: "Next.js",
+      style: "shadow-gray-500",
     },
     {
       id: 9,
-      src: photoshop,
-      title: "Photoshop",
-      style: "shadow-cyan-400",
+      src: csharp,
+      title: "C#",
+      style: "shadow-blue-700",
+    },
+    {
+      id: 10,
+      src: reactNative,
+      title: "React Native",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 11,
+      src: kotlin,
+      title: "Kotlin",
+      style: "shadow-purple-500",
     },
   ];
 
@@ -81,9 +95,12 @@ const Experience = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
-            <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
+            <div
+              key={id}
+              className={`shadow-md hover:scale-105 hover:bg-gray-700 hover:text-white duration-500 py-4 rounded-lg ${style} transform transition-transform`}
+            >
+              <img src={src} alt={`${title} icon`} className="w-20 mx-auto" />
+              <p className="mt-4 font-semibold text-lg">{title}</p>
             </div>
           ))}
         </div>
