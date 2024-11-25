@@ -5,10 +5,7 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
-import dotnet from "../assets/dotnet.png";
-import csharp from "../assets/csharp.png";
-import reactNative from "../assets/reactNative.png";
-import kotlin from "../assets/kotlin.png";
+import bootstrap from "../assets/bootstrap.png";
 
 const Experience = () => {
   const techs = [
@@ -17,10 +14,7 @@ const Experience = () => {
     { id: 3, src: javascript, title: "JavaScript", style: "shadow-yellow-500" },
     { id: 4, src: reactImage, title: "React", style: "shadow-blue-600" },
     { id: 5, src: tailwind, title: "Tailwind", style: "shadow-sky-400" },
-    { id: 6, src: dotnet, title: ".NET", style: "shadow-purple-500" },
-    { id: 7, src: csharp, title: "C#", style: "shadow-blue-700" },
-    { id: 8, src: reactNative, title: "React Native", style: "shadow-blue-500" },
-    { id: 9, src: kotlin, title: "Kotlin", style: "shadow-purple-500" },
+    { id: 5, src: bootstrap, title: "Bootstrap", style: "shadow-purple-400" },
   ];
 
   return (
