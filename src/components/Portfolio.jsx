@@ -5,14 +5,14 @@ const experiences = [
   { year: "2022", title: "Curricular internship - Software Development (Frontend)", company: "CEiiA - Centre of Engineering and Product Development", description: "Web application development using React JS and Tailwind CSS", description2: "Mobile application development using Kotlin" },
   { year: "2023", title: "Hired - Software Developer (Frontend)", company: "CEiiA - Centre of Engineering and Product Development", description: "Development of web aplications using HandleBars JS framework with CSS", description2: "Development of web aplications using JavaScript with Tailwind CSS" },
   { year: "2024", title: "Hired - Software Developer (Frontend)", company: "CEiiA - Centre of Engineering and Product Development", description: "Development of digital platforms in C# (WebForms/WebServer and Blazor)" },
-  { year: "2025", title: "Freelancer - Software Developer (Fullstack)", company: "Personal business", description: "Development of a mobile application in React Native with Expo CLI and Firebase", description2: "Development of an online menu (QR Code) for a hotel restaurant in React JS and Tailwind CSS" },
+  { year: "2025", title: "Freelancer - Software Developer (Fullstack)", company: "Personal business", description: "Development of a web application in Vue JS and Laravel", description2: "Development of an online menu (QR Code) for a hotel restaurant in React JS and Tailwind CSS" },
 ];
 
 const Portfolio = () => {
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen pt-20">
+    <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen pt-10">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <h2 className="text-4xl font-bold border-b-4 border-gray-500 pb-2">My Career</h2>
+        <h2 className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">My Career</h2>
         <p className="py-6">Check out some of my work and experiences.</p>
 
         <div className="relative pl-10">
